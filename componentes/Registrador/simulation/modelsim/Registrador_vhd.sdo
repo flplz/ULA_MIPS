@@ -1,0 +1,1366 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+
+// 
+// Device: Altera EP3C5F256C6 Package FBGA256
+// 
+
+//
+// This file contains Slow Corner delays for the design using part EP3C5F256C6,
+// with speed grade 6, core voltage 1.2V, and temperature 85 Celsius
+//
+
+// 
+// This SDF file should be used for ModelSim-Altera (VHDL) only
+// 
+
+(DELAYFILE
+  (SDFVERSION "2.1")
+  (DESIGN "Registrador")
+  (DATE "06/26/2023 22:14:04")
+  (VENDOR "Altera")
+  (PROGRAM "Quartus II 64-Bit")
+  (VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition")
+  (DIVIDER .)
+  (TIMESCALE 1 ps)
+
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[0\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (1109:1109:1109) (1155:1155:1155))
+        (IOPATH i o (1949:1949:1949) (1947:1947:1947))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[1\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (1184:1184:1184) (1290:1290:1290))
+        (IOPATH i o (1969:1969:1969) (1953:1953:1953))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[2\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (817:817:817) (833:833:833))
+        (IOPATH i o (2034:2034:2034) (2024:2024:2024))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[3\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (813:813:813) (842:842:842))
+        (IOPATH i o (1969:1969:1969) (1953:1953:1953))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[4\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (943:943:943) (995:995:995))
+        (IOPATH i o (1979:1979:1979) (1963:1963:1963))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[5\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (816:816:816) (872:872:872))
+        (IOPATH i o (1979:1979:1979) (1963:1963:1963))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[6\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (1836:1836:1836) (1978:1978:1978))
+        (IOPATH i o (1969:1969:1969) (1953:1953:1953))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[7\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (1088:1088:1088) (1137:1137:1137))
+        (IOPATH i o (1929:1929:1929) (1927:1927:1927))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[8\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (766:766:766) (803:803:803))
+        (IOPATH i o (2044:2044:2044) (2034:2034:2034))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[9\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (849:849:849) (896:896:896))
+        (IOPATH i o (1979:1979:1979) (1963:1963:1963))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[10\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (853:853:853) (888:888:888))
+        (IOPATH i o (3256:3256:3256) (3321:3321:3321))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[11\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (1676:1676:1676) (1789:1789:1789))
+        (IOPATH i o (1979:1979:1979) (1963:1963:1963))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[12\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (804:804:804) (847:847:847))
+        (IOPATH i o (1979:1979:1979) (1963:1963:1963))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[13\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (815:815:815) (859:859:859))
+        (IOPATH i o (1939:1939:1939) (1937:1937:1937))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[14\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (604:604:604) (648:648:648))
+        (IOPATH i o (1979:1979:1979) (1963:1963:1963))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[15\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (787:787:787) (824:824:824))
+        (IOPATH i o (1939:1939:1939) (1937:1937:1937))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[16\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (1368:1368:1368) (1417:1417:1417))
+        (IOPATH i o (2024:2024:2024) (2014:2014:2014))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[17\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (819:819:819) (851:851:851))
+        (IOPATH i o (2044:2044:2044) (2034:2034:2034))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[18\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (1768:1768:1768) (1892:1892:1892))
+        (IOPATH i o (1959:1959:1959) (1943:1943:1943))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[19\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (856:856:856) (901:901:901))
+        (IOPATH i o (1979:1979:1979) (1963:1963:1963))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[20\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (2572:2572:2572) (2770:2770:2770))
+        (IOPATH i o (2034:2034:2034) (2024:2024:2024))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[21\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (1034:1034:1034) (1067:1067:1067))
+        (IOPATH i o (1979:1979:1979) (1963:1963:1963))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[22\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (796:796:796) (829:829:829))
+        (IOPATH i o (2044:2044:2044) (2034:2034:2034))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[23\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (1300:1300:1300) (1306:1306:1306))
+        (IOPATH i o (1959:1959:1959) (1943:1943:1943))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[24\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (611:611:611) (671:671:671))
+        (IOPATH i o (1969:1969:1969) (1953:1953:1953))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[25\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (801:801:801) (851:851:851))
+        (IOPATH i o (1969:1969:1969) (1953:1953:1953))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[26\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (1347:1347:1347) (1429:1429:1429))
+        (IOPATH i o (3226:3226:3226) (3307:3307:3307))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[27\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (1380:1380:1380) (1424:1424:1424))
+        (IOPATH i o (2034:2034:2034) (2024:2024:2024))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[28\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (2036:2036:2036) (2104:2104:2104))
+        (IOPATH i o (2044:2044:2044) (2034:2034:2034))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[29\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (526:526:526) (561:561:561))
+        (IOPATH i o (1969:1969:1969) (1967:1967:1967))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[30\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (803:803:803) (851:851:851))
+        (IOPATH i o (1969:1969:1969) (1953:1953:1953))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Q\[31\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (784:784:784) (810:810:810))
+        (IOPATH i o (2034:2034:2034) (2024:2024:2024))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\Clock\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (690:690:690) (852:852:852))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_clkctrl")
+    (INSTANCE \\Clock\~inputclkctrl\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT inclk[0] (180:180:180) (158:158:158))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[0\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (676:676:676) (840:840:840))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\Rin\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (670:670:670) (832:832:832))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[0\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1274:1274:1274) (1312:1312:1312))
+        (PORT asdata (3547:3547:3547) (3826:3826:3826))
+        (PORT ena (3922:3922:3922) (4140:4140:4140))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD asdata (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[1\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (666:666:666) (830:830:830))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\Q\[1\]\~reg0feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (2944:2944:2944) (3192:3192:3192))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[1\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1274:1274:1274) (1312:1312:1312))
+        (PORT d (74:74:74) (91:91:91))
+        (PORT ena (3922:3922:3922) (4140:4140:4140))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD d (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[2\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (676:676:676) (840:840:840))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[2\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1284:1284:1284) (1322:1322:1322))
+        (PORT asdata (3313:3313:3313) (3604:3604:3604))
+        (PORT ena (3932:3932:3932) (4179:4179:4179))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD asdata (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[3\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (696:696:696) (860:860:860))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\Q\[3\]\~reg0feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (3109:3109:3109) (3347:3347:3347))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[3\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1274:1274:1274) (1312:1312:1312))
+        (PORT d (74:74:74) (91:91:91))
+        (PORT ena (3922:3922:3922) (4140:4140:4140))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD d (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[4\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (680:680:680) (842:842:842))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\Q\[4\]\~reg0feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (2941:2941:2941) (3173:3173:3173))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[4\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1274:1274:1274) (1312:1312:1312))
+        (PORT d (74:74:74) (91:91:91))
+        (PORT ena (3922:3922:3922) (4140:4140:4140))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD d (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[5\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (670:670:670) (832:832:832))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[5\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1284:1284:1284) (1322:1322:1322))
+        (PORT asdata (2995:2995:2995) (3232:3232:3232))
+        (PORT ena (3932:3932:3932) (4179:4179:4179))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD asdata (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[6\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (676:676:676) (840:840:840))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\Q\[6\]\~reg0feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (2925:2925:2925) (3196:3196:3196))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[6\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1284:1284:1284) (1322:1322:1322))
+        (PORT d (74:74:74) (91:91:91))
+        (PORT ena (3932:3932:3932) (4179:4179:4179))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD d (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[7\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (680:680:680) (842:842:842))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[7\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1284:1284:1284) (1322:1322:1322))
+        (PORT asdata (3252:3252:3252) (3487:3487:3487))
+        (PORT ena (3932:3932:3932) (4179:4179:4179))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD asdata (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[8\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (680:680:680) (842:842:842))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\Q\[8\]\~reg0feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (3534:3534:3534) (3812:3812:3812))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[8\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1284:1284:1284) (1322:1322:1322))
+        (PORT d (74:74:74) (91:91:91))
+        (PORT ena (3932:3932:3932) (4179:4179:4179))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD d (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[9\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (686:686:686) (850:850:850))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\Q\[9\]\~reg0feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (2730:2730:2730) (2984:2984:2984))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[9\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1274:1274:1274) (1312:1312:1312))
+        (PORT d (74:74:74) (91:91:91))
+        (PORT ena (3922:3922:3922) (4140:4140:4140))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD d (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[10\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (666:666:666) (830:830:830))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\Q\[10\]\~reg0feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (3063:3063:3063) (3314:3314:3314))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[10\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1274:1274:1274) (1312:1312:1312))
+        (PORT d (74:74:74) (91:91:91))
+        (PORT ena (3922:3922:3922) (4140:4140:4140))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD d (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[11\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (686:686:686) (850:850:850))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\Q\[11\]\~reg0feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (2984:2984:2984) (3236:3236:3236))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[11\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1274:1274:1274) (1312:1312:1312))
+        (PORT d (74:74:74) (91:91:91))
+        (PORT ena (3922:3922:3922) (4140:4140:4140))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD d (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[12\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (666:666:666) (830:830:830))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[12\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1274:1274:1274) (1312:1312:1312))
+        (PORT asdata (3514:3514:3514) (3813:3813:3813))
+        (PORT ena (3922:3922:3922) (4140:4140:4140))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD asdata (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[13\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (686:686:686) (850:850:850))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[13\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1274:1274:1274) (1312:1312:1312))
+        (PORT asdata (3358:3358:3358) (3605:3605:3605))
+        (PORT ena (3922:3922:3922) (4140:4140:4140))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD asdata (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[14\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (676:676:676) (840:840:840))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[14\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1274:1274:1274) (1312:1312:1312))
+        (PORT asdata (3267:3267:3267) (3519:3519:3519))
+        (PORT ena (3922:3922:3922) (4140:4140:4140))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD asdata (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[15\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (686:686:686) (850:850:850))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\Q\[15\]\~reg0feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (2891:2891:2891) (3161:3161:3161))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[15\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1284:1284:1284) (1322:1322:1322))
+        (PORT d (74:74:74) (91:91:91))
+        (PORT ena (3932:3932:3932) (4179:4179:4179))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD d (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[16\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (686:686:686) (850:850:850))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[16\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1274:1274:1274) (1312:1312:1312))
+        (PORT asdata (3242:3242:3242) (3485:3485:3485))
+        (PORT ena (3922:3922:3922) (4140:4140:4140))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD asdata (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[17\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (696:696:696) (860:860:860))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\Q\[17\]\~reg0feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (2897:2897:2897) (3174:3174:3174))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[17\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1284:1284:1284) (1322:1322:1322))
+        (PORT d (74:74:74) (91:91:91))
+        (PORT ena (3932:3932:3932) (4179:4179:4179))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD d (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[18\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (686:686:686) (850:850:850))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\Q\[18\]\~reg0feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (2726:2726:2726) (2980:2980:2980))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[18\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1274:1274:1274) (1312:1312:1312))
+        (PORT d (74:74:74) (91:91:91))
+        (PORT ena (3922:3922:3922) (4140:4140:4140))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD d (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[19\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (686:686:686) (850:850:850))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\Q\[19\]\~reg0feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (3033:3033:3033) (3280:3280:3280))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[19\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1274:1274:1274) (1312:1312:1312))
+        (PORT d (74:74:74) (91:91:91))
+        (PORT ena (3922:3922:3922) (4140:4140:4140))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD d (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[20\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (680:680:680) (842:842:842))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[20\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1284:1284:1284) (1322:1322:1322))
+        (PORT asdata (3327:3327:3327) (3555:3555:3555))
+        (PORT ena (3932:3932:3932) (4179:4179:4179))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD asdata (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[21\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (670:670:670) (832:832:832))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\Q\[21\]\~reg0feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (3200:3200:3200) (3467:3467:3467))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[21\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1284:1284:1284) (1322:1322:1322))
+        (PORT d (74:74:74) (91:91:91))
+        (PORT ena (3932:3932:3932) (4179:4179:4179))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD d (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[22\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (660:660:660) (822:822:822))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[22\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1284:1284:1284) (1322:1322:1322))
+        (PORT asdata (3330:3330:3330) (3558:3558:3558))
+        (PORT ena (3932:3932:3932) (4179:4179:4179))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD asdata (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[23\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (676:676:676) (840:840:840))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\Q\[23\]\~reg0feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (3237:3237:3237) (3497:3497:3497))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[23\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1274:1274:1274) (1312:1312:1312))
+        (PORT d (74:74:74) (91:91:91))
+        (PORT ena (3922:3922:3922) (4140:4140:4140))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD d (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[24\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (660:660:660) (822:822:822))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[24\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1274:1274:1274) (1312:1312:1312))
+        (PORT asdata (3336:3336:3336) (3571:3571:3571))
+        (PORT ena (3922:3922:3922) (4140:4140:4140))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD asdata (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[25\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (700:700:700) (862:862:862))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\Q\[25\]\~reg0feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (1586:1586:1586) (1508:1508:1508))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[25\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1284:1284:1284) (1322:1322:1322))
+        (PORT d (74:74:74) (91:91:91))
+        (PORT ena (3932:3932:3932) (4179:4179:4179))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD d (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[26\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (690:690:690) (852:852:852))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[26\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1284:1284:1284) (1322:1322:1322))
+        (PORT asdata (1925:1925:1925) (1879:1879:1879))
+        (PORT ena (3932:3932:3932) (4179:4179:4179))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD asdata (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[27\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (686:686:686) (850:850:850))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[27\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1284:1284:1284) (1322:1322:1322))
+        (PORT asdata (3469:3469:3469) (3748:3748:3748))
+        (PORT ena (3932:3932:3932) (4179:4179:4179))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD asdata (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[28\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (686:686:686) (850:850:850))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\Q\[28\]\~reg0feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (3237:3237:3237) (3563:3563:3563))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[28\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1274:1274:1274) (1312:1312:1312))
+        (PORT d (74:74:74) (91:91:91))
+        (PORT ena (3922:3922:3922) (4140:4140:4140))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD d (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[29\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (670:670:670) (832:832:832))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\Q\[29\]\~reg0feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (2941:2941:2941) (3172:3172:3172))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[29\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1284:1284:1284) (1322:1322:1322))
+        (PORT d (74:74:74) (91:91:91))
+        (PORT ena (3932:3932:3932) (4179:4179:4179))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD d (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[30\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (670:670:670) (832:832:832))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[30\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1284:1284:1284) (1322:1322:1322))
+        (PORT asdata (3664:3664:3664) (3940:3940:3940))
+        (PORT ena (3932:3932:3932) (4179:4179:4179))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD asdata (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\R\[31\]\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (670:670:670) (832:832:832))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\Q\[31\]\~reg0feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (3467:3467:3467) (3718:3718:3718))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\Q\[31\]\~reg0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1284:1284:1284) (1322:1322:1322))
+        (PORT d (74:74:74) (91:91:91))
+        (PORT ena (3932:3932:3932) (4179:4179:4179))
+        (IOPATH (posedge clk) q (199:199:199) (199:199:199))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD d (posedge clk) (157:157:157))
+      (HOLD ena (posedge clk) (157:157:157))
+    )
+  )
+)

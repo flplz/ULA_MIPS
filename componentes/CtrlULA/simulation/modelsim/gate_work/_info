@@ -1,0 +1,104 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\lipef\OneDrive\햞ea de Trabalho\ULA\componentes\CtrlULA\simulation\modelsim
+Ectrlula
+Z1 w1687916257
+Z2 DPx10 cycloneiii 20 cycloneiii_atom_pack 0 22 ]RlG5R]Q[aFAe9T5<XI<o1
+Z3 DPx10 cycloneiii 21 cycloneiii_components 0 22 czVkNK5?8i<HPTLVSV_3a2
+Z4 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z5 DPx6 altera 11 dffeas_pack 0 22 oY7WPe2I:Taj0>HV`A`AH0
+Z6 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z7 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z9 DPx6 altera 28 altera_primitives_components 0 22 H[E=U;zSVlD;ca@gnkzIO0
+Z10 dC:\Users\lipef\OneDrive\햞ea de Trabalho\ULA\componentes\CtrlULA\simulation\modelsim
+Z11 8CtrlULA.vho
+Z12 FCtrlULA.vho
+l0
+L36
+VY:eeSXoj>C;HbZGonGR1^1
+Z13 OV;C;10.1d;51
+31
+Z14 !s108 1687916265.817000
+Z15 !s90 -reportprogress|300|-93|-work|work|CtrlULA.vho|
+Z16 !s107 CtrlULA.vho|
+Z17 o-93 -work work -O0
+Z18 tExplicit 1
+!s100 eTNZYbOXY;Qlbb[1GYzgi3
+!i10b 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+Z19 DEx4 work 7 ctrlula 0 22 Y:eeSXoj>C;HbZGonGR1^1
+l129
+L68
+Vi`i:@Lzi:M_c6fFO>T<`n2
+R13
+31
+R14
+R15
+R16
+R17
+R18
+!s100 BiGL=4cBZ:NfKdaC6baIC3
+!i10b 1
+Etestbench
+Z20 w1687915515
+Z21 DPx4 ieee 16 std_logic_textio 0 22 ?Il0a149GV276[?[UMDWh2
+Z22 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z23 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z24 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z25 DPx4 ieee 9 math_real 0 22 :iME`dTX54_U49lJNF5JI3
+R7
+R8
+R10
+Z26 8C:/Users/lipef/OneDrive/햞ea de Trabalho/ULA/componentes/CtrlULA/testbench.vhd
+Z27 FC:/Users/lipef/OneDrive/햞ea de Trabalho/ULA/componentes/CtrlULA/testbench.vhd
+l0
+L9
+VM_aViMFX_4Z[F_k=ZXX3?0
+!s100 iCQh6dZbcCiQSWR]igzbJ1
+R13
+31
+!i10b 1
+Z28 !s108 1687916265.956000
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/lipef/OneDrive/햞ea de Trabalho/ULA/componentes/CtrlULA/testbench.vhd|
+Z30 !s107 C:/Users/lipef/OneDrive/햞ea de Trabalho/ULA/componentes/CtrlULA/testbench.vhd|
+R17
+R18
+Atb
+R2
+R3
+R4
+R5
+R6
+R9
+R19
+R21
+R22
+R23
+R24
+R25
+R7
+R8
+DEx4 work 9 testbench 0 22 M_aViMFX_4Z[F_k=ZXX3?0
+l34
+L17
+VlJXJBAT18=[U`N?bS8Y[j2
+!s100 _SKUlhiO:kPf85;jb=U813
+R13
+31
+!i10b 1
+R28
+R29
+R30
+R17
+R18

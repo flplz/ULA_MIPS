@@ -1,0 +1,32 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity ULA is
+	generic (
+	DATA_WIDTH : natural
+	);
+	port(
+      dataA		: in std_LOGIC_VECTOR ((DATA_WIDTH-1) downto 0);
+		dataB		: in std_LOGIC_VECTOR((DATA_WIDTH-1) downto 0);
+		sel		: in std_LOGIC_VECTOR(2 downto 0);
+		dataC	: out std_LOGIC_VECTOR((DATA_WIDTH) downto 0)
+	);
+    
+end entity;
+architecture rtl of ULA is
+signal signedA, signedB: signed((DatA_WIDTH) downto 0);
+signal result_and_or, result_mux_1, um : std_LOGIC_VECTOR((DATA_WIDTH)downto 0);
+signal result_soma_sub: signed((DATA_WIDTH) downto 0);
+begin
+	signedA <= signed(dataA(DATA_WIDTH-1)&dataA);
+	signedB <= signed(dataB(DATA_WIDTH-1)&dataB);
+	result_soma_sub <= (signedA - signedB) when sel(2)='1' else
+							 (signedA + signedB) when sel(2)='0';
+	result_and_or <= (dataA(DATA_WIDTH-1)&dataA) and (dataB(DATA_WIDTH-1)&dataB) when sel(0)='0' else
+						  (dataA(DATA_WIDTH-1)&dataA) or (dataB(DATA_WIDTH-1)&dataB) when sel(0)='1';
+	result_mux_1 <= (result_and_or) when sel(1)='0' else
+						 std_LOGIC_VECTOR(result_soma_sub) when sel(1) = '1';
+	um <= "00000000000000000000000000000000" & result_soma_sub(DatA_WIDTH);
+	dataC <= um when sel = "111" else Result_mux_1;
+end architecture;

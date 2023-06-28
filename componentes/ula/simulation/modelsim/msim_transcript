@@ -1,0 +1,79 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ULA_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {ULA.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneiii_atom_pack
+# -- Loading package cycloneiii_components
+# -- Compiling entity ULA
+# -- Compiling architecture structure of ULA
+# 
+# vcom -93 -work work {C:/Users/lipef/OneDrive/Área de Trabalho/ULA/componentes/ula/testbench.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package std_logic_textio
+# -- Compiling entity testbench
+# -- Compiling architecture tb of testbench
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneiii_atom_pack
+# -- Loading package cycloneiii_components
+# -- Loading entity ULA
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /DUT=ULA_vhd.sdo -L altera -L cycloneiii -L gate_work -L work -voptargs="+acc"  testbench
+# vsim +transport_int_delays +transport_path_delays -L altera -L cycloneiii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /DUT=ULA_vhd.sdo -t 1ps testbench 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneiii.cycloneiii_atom_pack(body)
+# Loading cycloneiii.cycloneiii_components
+# Loading work.testbench(tb)
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading work.ula(structure)
+# Loading cycloneiii.cycloneiii_io_obuf(arch)
+# Loading cycloneiii.cycloneiii_io_ibuf(arch)
+# Loading cycloneiii.cycloneiii_lcell_comb(vital_lcell_comb)
+# Loading instances from ULA_vhd.sdo
+# Loading timing data from ULA_vhd.sdo
+# ** Warning: Design size of 4 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: C:/Users/lipef/OneDrive/Área de Trabalho/ULA/componentes/ula/testbench.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: Test done.
+#    Time: 17100 ns  Iteration: 0  Instance: /testbench

@@ -1,0 +1,153 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity testbench is
+end entity;
+
+architecture tb_arch of CtrlULA_tb is
+   constant DATA_WIDTH_FUNCT : natural := 6;
+   
+   signal clk     : std_logic := '0';
+   signal reset   : std_logic := '0';
+   signal funct   : std_logic_vector(DATA_WIDTH_FUNCT - 1 downto 0);
+   signal ULAop   : std_logic_vector(DATA_WIDTH_FUNCT - 5 downto 0);
+   signal sel     : std_logic_vector(2 downto 0);
+   signal enRegA  : std_logic;
+   signal enRegB  : std_logic;
+   signal enRegC  : std_logic;
+
+   component CtrlULA
+      generic (
+         DATA_WIDTH_FUNCT : natural := 6
+      );
+      port (
+         clk    : in  std_logic;
+         reset  : in  std_logic;
+         funct  : in  std_logic_vector(DATA_WIDTH_FUNCT - 1 downto 0);
+         ULAop  : in  std_logic_vector(DATA_WIDTH_FUNCT - 5 downto 0);
+         sel    : out std_logic_vector(2 downto 0);
+         enRegA : out std_logic;
+         enRegB : out std_logic;
+         enRegC : out std_logic
+      );
+   end component;
+
+begin
+   -- Instância da ULA do MIPS
+   ULA_inst : CtrlULA
+      generic map (
+         DATA_WIDTH_FUNCT => DATA_WIDTH_FUNCT
+      )
+      port map (
+         clk    => clk,
+         reset  => reset,
+         funct  => funct,
+         ULAop  => ULAop,
+         sel    => sel,
+         enRegA => enRegA,
+         enRegB => enRegB,
+         enRegC => enRegC
+      );
+
+   -- Processo de clock
+   clk_process : process
+   begin
+      while now < 1000 ns loop  -- Começo da definição da duração do teste aqui
+         clk <= '0';
+         wait for 5 ns;  -- Ajuste o período do clock aqui
+         clk <= '1';
+         wait for 5 ns;  -- Ajuste o período do clock aqui
+      end loop;
+      wait;
+   end process;
+
+   -- Processo de estímulo
+   stimulus_process : process
+   begin
+      reset <= '1';
+      wait for 10 ns;
+      reset <= '0';
+      
+      -- Teste 1
+      funct <= "000000";  -- Exemplo de função válida
+      ULAop <= "00";      -- Exemplo de operação válida
+      wait for 10 ns;
+      assert (sel = "010" and enRegA = '1' and enRegB = '1' and enRegC = '0')
+         report "Erro no Teste 1" severity error;
+      
+      -- Teste 2
+      funct <= "000010";  -- Exemplo de função inválida
+      ULAop <= "01";      -- Exemplo de operação válida
+      wait for 10 ns;
+      assert (sel = "110" and enRegA = '0' and enRegB = '0' and enRegC = '0')
+         report "Erro no Teste 2" severity error;
+      
+      -- Teste 3
+      funct <= "100010";  -- Exemplo de função válida
+      ULAop <= "10";      -- Exemplo de operação inválida
+      wait for 10 ns;
+      assert (sel = "000" and enRegA = '0' and enRegB = '0' and enRegC = '0')
+         report "Erro no Teste 3" severity error;
+      
+      -- Teste 4
+      funct <= "100000";  -- Exemplo de função válida
+      ULAop <= "10";      -- Exemplo de operação válida
+      wait for 10 ns;
+      assert (sel = "010" and enRegA = '0' and enRegB = '0' and enRegC = '0')
+         report "Erro no Teste 4" severity error;
+      
+      -- Teste 5
+      funct <= "101010";  -- Exemplo de função válida
+      ULAop <= "10";      -- Exemplo de operação válida
+      wait for 10 ns;
+      assert (sel = "111" and enRegA = '0' and enRegB = '0' and enRegC = '1')
+         report "Erro no Teste 5" severity error;
+      
+      -- Adicione mais casos de teste conforme necessário
+      
+      wait;
+   end process;
+
+   -- Processo de verificação
+   verification_process : process
+   begin
+    wait for 1000 ns;  -- Tempo suficiente para todos os testes serem executados
+   
+   -- Verificação do Teste 1
+   assert sel = "010" and enRegA = '1' and enRegB = '1' and enRegC = '0'
+      report "Erro no Teste 1: Resultados incorretos" severity error;
+   
+   -- Verificação do Teste 2
+   assert sel = "110" and enRegA = '0' and enRegB = '0' and enRegC = '0'
+      report "Erro no Teste 2: Resultados incorretos" severity error;
+   
+   -- Verificação do Teste 3
+   assert sel = "000" and enRegA = '0' and enRegB = '0' and enRegC = '0'
+      report "Erro no Teste 3: Resultados incorretos" severity error;
+   
+   -- Verificação do Teste 4
+   assert sel = "010" and enRegA = '0' and enRegB = '0' and enRegC = '0'
+      report "Erro no Teste 4: Resultados incorretos" severity error;
+   
+   -- Verificação do Teste 5
+   assert sel = "111" and enRegA = '0' and enRegB = '0' and enRegC = '1'
+      report "Erro no Teste 5: Resultados incorretos" severity error;
+   
+   -- Adicione mais verificações para os casos de teste adicionais
+   
+   -- Verificações concluídas com sucesso
+   report "Processo de verificação concluído: Todos os testes passaram com sucesso" severity note;
+      wait;
+   end process;
+
+end architecture;
+
+
+-- Processo de verificação
+verification_process : process
+begin
+
+   
+   wait;
+end process;
